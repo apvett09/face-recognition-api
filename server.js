@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("old db route for fake db");
+  res.send("it's working!");
 });
 
 app.post("/signin", (req, res) => {
