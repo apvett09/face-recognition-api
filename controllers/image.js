@@ -17,8 +17,8 @@ const returnClarifaiRequestOptions = (imageURL) => {
 
   const raw = JSON.stringify({
     user_app_id: {
-      user_id: "apv1127",
-      app_id: "face-recognition-app",
+      user_id: "your user ID",
+      app_id: "your app",
     },
     inputs: [
       {
@@ -35,7 +35,7 @@ const returnClarifaiRequestOptions = (imageURL) => {
     method: "POST",
     headers: {
       Accept: "application/json",
-      Authorization: "Key " + "0d40612ac520449183e62a84c5ec809a",
+      Authorization: "Key " + "your api key",
     },
     body: raw,
   };
